@@ -10,6 +10,20 @@
     />
     <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
     <script src="https://unpkg.com/react-router-dom@6.2.2/umd/react-router-dom.production.min.js"></script>
+    <script>
+      const rootElement = document.getElementById("root");
+      const router = createBrowserRouter(
+        createRoutesFromElements(
+          <Route path="/" element={<Root />}>
+            <Route index element={<Homepage />} />
+            <Route path="/english-menu" element={<EnglishMenu />} />
+            <Route path="/spanish-menu" element={<SpanishMenu />} />
+          </Route>
+        )
+      );
+    
+      ReactDOM.render(<RouterProvider router={router}><Root /></RouterProvider>, rootElement);
+    </script>
 
   
  
