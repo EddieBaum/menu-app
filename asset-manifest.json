@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EddieBaum/menu-app.git/static/css/main.3485d6e4.css",
+    "main.js": "/EddieBaum/menu-app.git/static/js/main.f75f9c44.js",
+    "static/media/muRibs&Fries.jpeg": "/EddieBaum/menu-app.git/static/media/muRibs&Fries.16d7b708b23b1b0b1da9.jpeg",
+    "static/media/muRibsLogo.jpeg": "/EddieBaum/menu-app.git/static/media/muRibsLogo.ec3fdead43bbe05d6530.jpeg",
+    "index.html": "/EddieBaum/menu-app.git/index.html",
+    "main.3485d6e4.css.map": "/EddieBaum/menu-app.git/static/css/main.3485d6e4.css.map",
+    "main.f75f9c44.js.map": "/EddieBaum/menu-app.git/static/js/main.f75f9c44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3485d6e4.css",
+    "static/js/main.f75f9c44.js"
+  ]
+}
