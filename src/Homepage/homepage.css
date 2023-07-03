@@ -1,7 +1,7 @@
-#muLogo {
+#muLogoBig {
     background-image: url('../photos/muRibsLogo.jpeg');
     background-position: center;
-    background-position: cover;
+    background-size: cover;
     border-radius: 50%;
     border: 7px red solid;
     height: 235px;
@@ -20,6 +20,7 @@
     margin: 15px;
     font-size: 1.5rem;
     border: none;
+    border: 3px solid red; 
 }
 
 .parentSection {
@@ -27,4 +28,5 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: scroll;
 }

@@ -7,7 +7,7 @@ const Homepage = () => {
 
   return (
     <section className="parentSection" id="homepage">
-      <div id="muLogo"></div>
+      <div id="muLogoBig"></div>
       <div className="ButtonParentDiv">
         <Link to="/english-menu">
           <button className="languageButton" id="english">
