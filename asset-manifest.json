@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/menu-app/static/css/main.4306b4d3.css",
-    "main.js": "/menu-app/static/js/main.ce6e1e79.js",
+    "main.css": "/menu-app/static/css/main.cb5a379d.css",
+    "main.js": "/menu-app/static/js/main.a865585e.js",
     "static/media/muRibs&Fries.jpeg": "/menu-app/static/media/muRibs&Fries.16d7b708b23b1b0b1da9.jpeg",
+    "static/media/beerBottles.jpeg": "/menu-app/static/media/beerBottles.d3e47a6e162bac653f7b.jpeg",
+    "static/media/lemonaid.jpeg": "/menu-app/static/media/lemonaid.70b48a305d8a8ad4c5c7.jpeg",
+    "static/media/mojitoTops.jpeg": "/menu-app/static/media/mojitoTops.cfe79fdbb86ba2fbc45a.jpeg",
+    "static/media/ribsChar.jpeg": "/menu-app/static/media/ribsChar.12847d1f392809bb6927.jpeg",
     "static/media/muRibsLogo.jpeg": "/menu-app/static/media/muRibsLogo.ec3fdead43bbe05d6530.jpeg",
     "index.html": "/menu-app/index.html",
-    "main.4306b4d3.css.map": "/menu-app/static/css/main.4306b4d3.css.map",
-    "main.ce6e1e79.js.map": "/menu-app/static/js/main.ce6e1e79.js.map"
+    "main.cb5a379d.css.map": "/menu-app/static/css/main.cb5a379d.css.map",
+    "main.a865585e.js.map": "/menu-app/static/js/main.a865585e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4306b4d3.css",
-    "static/js/main.ce6e1e79.js"
+    "static/css/main.cb5a379d.css",
+    "static/js/main.a865585e.js"
   ]
 }
