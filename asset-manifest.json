@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EddieBaum/menu-app.git/static/css/main.3485d6e4.css",
-    "main.js": "/EddieBaum/menu-app.git/static/js/main.f75f9c44.js",
-    "static/media/muRibs&Fries.jpeg": "/EddieBaum/menu-app.git/static/media/muRibs&Fries.16d7b708b23b1b0b1da9.jpeg",
-    "static/media/muRibsLogo.jpeg": "/EddieBaum/menu-app.git/static/media/muRibsLogo.ec3fdead43bbe05d6530.jpeg",
-    "index.html": "/EddieBaum/menu-app.git/index.html",
-    "main.3485d6e4.css.map": "/EddieBaum/menu-app.git/static/css/main.3485d6e4.css.map",
-    "main.f75f9c44.js.map": "/EddieBaum/menu-app.git/static/js/main.f75f9c44.js.map"
+    "main.css": "/menu-app/static/css/main.4306b4d3.css",
+    "main.js": "/menu-app/static/js/main.f75f9c44.js",
+    "static/media/muRibs&Fries.jpeg": "/menu-app/static/media/muRibs&Fries.16d7b708b23b1b0b1da9.jpeg",
+    "static/media/muRibsLogo.jpeg": "/menu-app/static/media/muRibsLogo.ec3fdead43bbe05d6530.jpeg",
+    "index.html": "/menu-app/index.html",
+    "main.4306b4d3.css.map": "/menu-app/static/css/main.4306b4d3.css.map",
+    "main.f75f9c44.js.map": "/menu-app/static/js/main.f75f9c44.js.map"
   },
   "entrypoints": [
-    "static/css/main.3485d6e4.css",
+    "static/css/main.4306b4d3.css",
     "static/js/main.f75f9c44.js"
   ]
 }
