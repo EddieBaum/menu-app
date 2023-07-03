@@ -1,1 +1,12 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><script src="https://unpkg.com/react@18/umd/react.production.min.js"></script><script src="https://unpkg.com/react-router-dom@6.2.2/umd/react-router-dom.production.min.js"></script><title>MU Menu</title><script defer="defer" src="/menu-app/static/js/main.f75f9c44.js"></script><link href="/menu-app/static/css/main.4306b4d3.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><script src="https://unpkg.com/react@18/umd/react.production.min.js"></script><script src="https://unpkg.com/react-router-dom@6.2.2/umd/react-router-dom.production.min.js"></script><script>const rootElement = document.getElementById("root");
+      const router = createBrowserRouter(
+        createRoutesFromElements(
+          <Route path="/" element={<Root />}>
+            <Route index element={<Homepage />} />
+            <Route path="/english-menu" element={<EnglishMenu />} />
+            <Route path="/spanish-menu" element={<SpanishMenu />} />
+          </Route>
+        )
+      );
+    
+      ReactDOM.render(<RouterProvider router={router}><Root /></RouterProvider>, rootElement);</script><title>MU Menu</title><script defer="defer" src="/menu-app/static/js/main.ce6e1e79.js"></script><link href="/menu-app/static/css/main.4306b4d3.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
