@@ -9,9 +9,9 @@ const EnglishMenu = () => {
         <div className="menuBanner" id="ribs">
           <h2>RIBS & MORE</h2>
           <div class="grid-container">
-            <div class="grid-item">SMALL PLATE<div className="price">79K</div></div>
-            <div class="grid-item">MEDIUM PLATE<div className="price">89K</div></div>
-            <div class="grid-item">LARGE PLATE<div className="price">99K</div></div>
+            <div class="grid-item">SMALL<div className="price">79K</div></div>
+            <div class="grid-item">MEDIUM<div className="price">89K</div></div>
+            <div class="grid-item">LARGE<div className="price">99K</div></div>
           </div>
           <div className="sideInfo">
             <p>
@@ -21,34 +21,43 @@ const EnglishMenu = () => {
           </div>
           <h2>EXTRAS</h2>
           <div class="grid-container">
-            <div class="extra-grid-item">
+            <div class="grid-item">
               Nachos/Guac
               <div className="price">40k</div>
             </div>
-            <div class="extra-grid-item">
+            <div class="grid-item">
               Nachos
               <div className="price">40k</div>
             </div>
-            <div class="extra-grid-item">
+            <div class="grid-item">
               Guacamole
               <div className="price">40k</div>
             </div>
-            <div class="extra-grid-item">
+            <div class="grid-item">
               Chips
               <div className="price">40k</div>
             </div>
-            <div class="extra-grid-item">
+            <div class="grid-item">
               Helado
               <div className="price">40k</div>
             </div>
-            <div class="extra-grid-item">
+            <div class="grid-item">
               Salsa
               <div className="price">40k</div>
             </div>
           </div>
         </div>
         <div className="menuBanner" id="cocktails">
-          <h2>Cocktails</h2>
+                  <h2>Cocktails</h2>
+                  <div class="grid-container">
+  <div class="grid-item">Mojito<div className="price">38k</div></div>
+  <div class="grid-item">Gin & Tonic<div className="price">38k</div></div>
+  <div class="grid-item">Margarita<div className="price">38k</div></div>
+  <div class="grid-item">Cuba Libre<div className="price">38k</div></div>
+  <div class="grid-item">Shots<div className="price">38k</div></div>
+  <div class="grid-item">Enjoy<div className="price">0k</div></div>
+</div>
+
         </div>
         <div className="menuBanner" id="beerWine">
           <h2>Beers and Wine</h2>

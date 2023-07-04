@@ -101,9 +101,9 @@ font-family: 'Pangolin', cursive;
   }
   
   .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 7px;
-    font-size: 1rem;
+
+    padding: 5px;
+    font-size: 1.3rem;
     text-align: center;
     font-family: 'Pangolin', cursive;
   }
@@ -113,12 +113,13 @@ font-family: 'Pangolin', cursive;
   }
 
   p {
-    padding: 0px 20px 0px 20px; 
+    padding: 0px 10px 0px 10px; 
     font-family: 'Pangolin', cursive;
   }
 
   h2 {
     font-family: 'Rampart One', cursive;
+    margin: 0 auto; 
   }
 
 #generalInfoFooter {
