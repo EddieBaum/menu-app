@@ -1,35 +1,72 @@
 import React from "react";
-import './englishMenu.css'
+import "./englishMenu.css";
 
 const EnglishMenu = () => {
-    return (
-      <section className="english-menu-section">
-        <div id="muLogoSmall"></div>
-        <div id="itemsContainer">
-          <div className="menuBanner" id="ribs">
-            <h2>Ribs & More</h2>
+  return (
+    <section className="english-menu-section">
+      <div id="muLogoSmall"></div>
+      <div id="itemsContainer">
+        <div className="menuBanner" id="ribs">
+          <h2>RIBS & MORE</h2>
+          <div class="grid-container">
+            <div class="grid-item">SMALL PLATE<div className="price">79K</div></div>
+            <div class="grid-item">MEDIUM PLATE<div className="price">89K</div></div>
+            <div class="grid-item">LARGE PLATE<div className="price">99K</div></div>
           </div>
-          <div className="menuBanner" id="cocktails">
-            <h2>Cocktails</h2>
+          <div className="sideInfo">
+            <p>
+              All sizes are served with a porcion of french fries, nachos,
+              guacamole and a selection of house sauces.
+            </p>
           </div>
-          <div className="menuBanner" id="beerWine">
-            <h2>Beers and Wine</h2>
-          </div>
-          <div className="menuBanner" id="nonAlcoholic">
-            <h2>Non-Alcoholic</h2>
+          <h2>EXTRAS</h2>
+          <div class="grid-container">
+            <div class="extra-grid-item">
+              Nachos/Guac
+              <div className="price">40k</div>
+            </div>
+            <div class="extra-grid-item">
+              Nachos
+              <div className="price">40k</div>
+            </div>
+            <div class="extra-grid-item">
+              Guacamole
+              <div className="price">40k</div>
+            </div>
+            <div class="extra-grid-item">
+              Chips
+              <div className="price">40k</div>
+            </div>
+            <div class="extra-grid-item">
+              Helado
+              <div className="price">40k</div>
+            </div>
+            <div class="extra-grid-item">
+              Salsa
+              <div className="price">40k</div>
+            </div>
           </div>
         </div>
-        <footer id="generalInfoFooter">
-          <p>
-            Methods to pay, Hours of operation, price includes tax, @MUMedellin
-            IG
-          </p>
-        </footer>
-      </section>
-    );
+        <div className="menuBanner" id="cocktails">
+          <h2>Cocktails</h2>
+        </div>
+        <div className="menuBanner" id="beerWine">
+          <h2>Beers and Wine</h2>
+        </div>
+        <div className="menuBanner" id="nonAlcoholic">
+          <h2>Non-Alcoholic</h2>
+        </div>
+      </div>
+      <footer id="generalInfoFooter">
+        <p>
+          Methods to pay, Hours of operation, price includes tax, @MUMedellin IG
+        </p>
+      </footer>
+    </section>
+  );
 };
 
-export default EnglishMenu; 
+export default EnglishMenu;
 
 /*
     <h3>RIBS</h3> //THIS CODE IS FOR THE STATIC NON INTERACTIVE MENU, BASIC INFO AND PRICE

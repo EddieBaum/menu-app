@@ -1,3 +1,10 @@
+/*
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Rampart One', cursive; 
+font-family: 'Pangolin', cursive;
+*/
+
+
 .english-menu-section {
     color: white; 
     width: 100vw;
@@ -21,6 +28,11 @@
     width: 85%;
     border-radius: 10px;
     margin: 20px auto 35px; 
+    border: 1px solid red;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
 }
 
 .rib-plates {
@@ -80,8 +92,39 @@
     margin: 10px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 5px;
+    font-family: 'Pangolin', cursive;
+  }
+  
+  .grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 7px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+  }
+
+  .sideInfo {
+    display: flex;
+  }
+
+  p {
+    padding: 0px 20px 0px 20px; 
+    font-family: 'Pangolin', cursive;
+  }
+
+  h2 {
+    font-family: 'Rampart One', cursive;
+  }
+
 #generalInfoFooter {
-    color: grey; 
+    color: rgb(177, 159, 159); 
     font: 1.2rem;
     height: 35vh;
+    font-family: 'Pangolin', cursive;
+
 }
