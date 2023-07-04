@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/menu-app/static/css/main.1a0faec5.css",
-    "main.js": "/menu-app/static/js/main.89c726f5.js",
+    "main.css": "/menu-app/static/css/main.fc2ab731.css",
+    "main.js": "/menu-app/static/js/main.1080fcda.js",
     "static/media/muRibs&Fries.jpeg": "/menu-app/static/media/muRibs&Fries.16d7b708b23b1b0b1da9.jpeg",
     "static/media/beerBottles.jpeg": "/menu-app/static/media/beerBottles.d3e47a6e162bac653f7b.jpeg",
     "static/media/lemonaid.jpeg": "/menu-app/static/media/lemonaid.70b48a305d8a8ad4c5c7.jpeg",
@@ -9,11 +9,11 @@
     "static/media/ribsChar.jpeg": "/menu-app/static/media/ribsChar.12847d1f392809bb6927.jpeg",
     "static/media/muRibsLogo.jpeg": "/menu-app/static/media/muRibsLogo.ec3fdead43bbe05d6530.jpeg",
     "index.html": "/menu-app/index.html",
-    "main.1a0faec5.css.map": "/menu-app/static/css/main.1a0faec5.css.map",
-    "main.89c726f5.js.map": "/menu-app/static/js/main.89c726f5.js.map"
+    "main.fc2ab731.css.map": "/menu-app/static/css/main.fc2ab731.css.map",
+    "main.1080fcda.js.map": "/menu-app/static/js/main.1080fcda.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a0faec5.css",
-    "static/js/main.89c726f5.js"
+    "static/css/main.fc2ab731.css",
+    "static/js/main.1080fcda.js"
   ]
 }
