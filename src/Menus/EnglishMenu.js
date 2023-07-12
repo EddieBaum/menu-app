@@ -48,7 +48,7 @@ const EnglishMenu = () => {
           </div>
         </div>
         <div className="menuBanner" id="cocktails">
-                  <h2>Cocktails</h2>
+                  <h2>COCKTAILS</h2>
                   <div class="grid-container">
   <div class="grid-item">Mojito<div className="price">38k</div></div>
   <div class="grid-item">Gin & Tonic<div className="price">38k</div></div>

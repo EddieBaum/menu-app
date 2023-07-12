@@ -30,7 +30,7 @@ font-family: 'Pangolin', cursive;
     margin: 20px auto 35px; 
     border: 1px solid red;
     display: flex; 
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -119,6 +119,7 @@ font-family: 'Pangolin', cursive;
 
   h2 {
     font-family: 'Rampart One', cursive;
+    font-size: 2.2rem;
     margin: 0 auto; 
   }
 
