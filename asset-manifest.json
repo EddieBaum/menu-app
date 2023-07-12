@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/menu-app/static/css/main.84f210e0.css",
-    "main.js": "/menu-app/static/js/main.bef13b98.js",
+    "main.js": "/menu-app/static/js/main.1d9f4ecb.js",
     "static/media/muRibs&Fries.jpeg": "/menu-app/static/media/muRibs&Fries.16d7b708b23b1b0b1da9.jpeg",
     "static/media/beerBottles.jpeg": "/menu-app/static/media/beerBottles.d3e47a6e162bac653f7b.jpeg",
     "static/media/lemonaid.jpeg": "/menu-app/static/media/lemonaid.70b48a305d8a8ad4c5c7.jpeg",
@@ -10,10 +10,10 @@
     "static/media/muRibsLogo.jpeg": "/menu-app/static/media/muRibsLogo.ec3fdead43bbe05d6530.jpeg",
     "index.html": "/menu-app/index.html",
     "main.84f210e0.css.map": "/menu-app/static/css/main.84f210e0.css.map",
-    "main.bef13b98.js.map": "/menu-app/static/js/main.bef13b98.js.map"
+    "main.1d9f4ecb.js.map": "/menu-app/static/js/main.1d9f4ecb.js.map"
   },
   "entrypoints": [
     "static/css/main.84f210e0.css",
-    "static/js/main.bef13b98.js"
+    "static/js/main.1d9f4ecb.js"
   ]
 }
