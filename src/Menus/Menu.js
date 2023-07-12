@@ -1,7 +1,7 @@
 import React from "react";
-import "./englishMenu.css";
+import "./menu.css";
 
-const EnglishMenu = () => {
+const Menu = () => {
   return (
     <section className="english-menu-section">
       <div id="muLogoSmall"></div>
@@ -75,7 +75,7 @@ const EnglishMenu = () => {
   );
 };
 
-export default EnglishMenu;
+export default Menu;
 
 /*
     <h3>RIBS</h3> //THIS CODE IS FOR THE STATIC NON INTERACTIVE MENU, BASIC INFO AND PRICE

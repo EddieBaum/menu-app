@@ -9,7 +9,7 @@ const Homepage = () => {
     <section className="parentSection" id="homepage">
       <div id="muLogoBig"></div>
       <div className="ButtonParentDiv">
-        <Link to="/english-menu">
+        <Link to="/menu">
           <button className="languageButton" id="english">
             English
           </button>

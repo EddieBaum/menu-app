@@ -2,7 +2,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route, Router, Link, Outlet } from "react-router-dom";
 import React from "react";
 import Homepage from "./Homepage/Homepage";
-import EnglishMenu from "./Menus/EnglishMenu";
+import Menu from "./Menus/Menu";
 import SpanishMenu from "./Menus/SpanishMenu";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index path='/menu-app' element={<Homepage />} />
-        <Route path="/english-menu" element={<EnglishMenu />} />
+        <Route path="/menu" element={<Menu />} />
         <Route path="/spanish-menu" element={<SpanishMenu />} />
       </Route>
     )
