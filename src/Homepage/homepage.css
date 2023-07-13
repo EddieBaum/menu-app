@@ -35,3 +35,17 @@
     flex-direction: column;
     overflow: scroll;
 }
+
+#igIcon {
+  color: black;
+  font-size: 1.8rem;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+
+  
+}

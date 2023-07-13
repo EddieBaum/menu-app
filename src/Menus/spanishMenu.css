@@ -1,7 +1,132 @@
-.testDivSpanish {
+/*
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Rampart One', cursive; 
+font-family: 'Pangolin', cursive;
+*/
+
+
+.spanish-menu-section {
     color: white; 
-    font-size: 3rem;
-    z-index: 100;
-    width: 100px;
-    height: 100px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+#itemsContainer {
+    overflow: scroll;
+    width: 100%;
+
+}
+
+.menuBanner {
+    height: 400px;
+    width: 85%;
+    border-radius: 10px;
+    margin: 20px auto 35px; 
+    border: 1px solid red;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rib-plates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ribs {
+    background:
+    linear-gradient(rgb(0, 0, 0, .2), rgb(0, 0, 0, 1.0)),
+    url('../photos/ribsChar.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+#beerWine {
+    background:
+    linear-gradient(rgb(0, 0, 0, .2), rgb(0, 0, 0, 1.0)),
+    url('../photos/beerBottles.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+#cocktails {
+    background:
+    linear-gradient(rgb(0, 0, 0, .2), rgb(0, 0, 0, 1.0)),
+    url('../photos/mojitoTops.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+#nonAlcoholic {
+    background:
+    linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, 1.0)),
+    url('../photos/lemonaid.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.size {
+    display: flex; 
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
+}
+
+#muLogoSmall {
+    background-image: url('../photos/muRibsLogo.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 7px red solid;
+    height: 120px;
+    width: 120px;
+    min-width: 120px; 
+    min-height: 120px;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 5px;
+    font-family: 'Pangolin', cursive;
+  }
+  
+  .grid-item {
+
+    padding: 5px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+  }
+
+  .sideInfo {
+    display: flex;
+  }
+
+  p {
+    padding: 0px 10px 0px 10px; 
+    font-family: 'Pangolin', cursive;
+  }
+
+  h2 {
+    font-family: 'Rampart One', cursive;
+    font-size: 2.2rem;
+    margin: 0 auto; 
+  }
+
+#generalInfoFooter {
+    color: rgb(177, 159, 159); 
+    font: 1.2rem;
+    height: 35vh;
+    font-family: 'Pangolin', cursive;
+
 }
